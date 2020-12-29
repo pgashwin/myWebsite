@@ -1,2 +1,2 @@
-# https://pgashwin.github.io/myWebsite/
+# https://pgashwin.github.io
 This is my website. 
