@@ -45,9 +45,9 @@
 
   
   .social {
-  left: 49.5%;
-  top: 55%;
-  font-size: 22px;
+  left: 49.45%;
+  top: 50%;
+  font-size: 24px;
   position: absolute;
   }
 
@@ -55,6 +55,7 @@
     body, html {
       height: 100%;
       margin: 0;
+      overflow: hidden;
     }
 
     
@@ -126,8 +127,8 @@
   color: rgb(100, 100, 100);
   font-weight: 400;
   position: absolute;
-  top: 48%;
-  left: 50%;
+  top: 52%;
+  left: 69.5%;
   font-size: 12px;
   text-decoration: None;
  }
@@ -180,35 +181,66 @@
       background-color: black;
     }
 
-    .social{
-    left: 12%;
-    top: 90%;
+    .ProfileImage {
+      position: absolute;
+      top: 15vh;
+      left: -50vw;
+      width: 200%;
+      
     }
 
     .Name{
-    top: 8%;
-    left: 8%;
+      top: 25vh;
+      left: 40vw;
+      font-size: 34px;
+      }
+
+    .Title{
+      top: 35vh;
+      left: 40vw;
+      font-size: 18px;
+      }
+
+      .StockPhotoTitle {
+        
+        top: 48vh;
+        left: 40vw;
+        font-size: 10px;
+        
+    
+      }
+    
+    
+    .ShutterStock {
+      
+      top: 48vh;
+      left: 56vw;
+      font-size: 10px;
+      
+    
+    }
+    
+    .AdobeStock {
+      
+      top: 48vh;
+      left: 72vw;
+      font-size: 10px;
+      
+      }
+
+
+    .social{
+    left: 37.5vw;
+    top: 55%;
+    font-size: 1px;
     }
 
-    .title{
-    top: 68%;
-    left: 2%;
-    }
-
-    .projects{
-    top: 71%;
-    left: 10%;
-    }
-
-    .text {
-    top: 79%;
-    left: 18%;
-    }
-
-    .text2 {
-    top: 83%;
-    left: 18%;
-    }
+    .EMAIL {
+      top: 63vh;
+      left: 40vw;
+      font-size: 10px;
+      
+     }
 }
 
 /* mobile devices 375(iphone 6/7/8) */
@@ -358,7 +390,7 @@
     background-color: black;
         }
 
-  .Name{
+  .name{
       top: 20%;
       left: 50%;
     }
