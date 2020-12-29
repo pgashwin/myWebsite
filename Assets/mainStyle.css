@@ -1,0 +1,397 @@
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    top:50%;
+    left:45%;
+    width: 5px;
+    height: 5px;
+    text-align: left;
+    text-decoration: none;
+    margin: 1px 2px;
+    border-radius: 1%;
+  }
+
+  
+
+
+  .fa-linkedin {
+    color: rgb(100, 100, 100);
+  }
+
+  .fa-instagram {
+    color: rgb(100, 100, 100);
+  }
+
+  .fa-youtube {
+    color: rgb(100, 100, 100);
+  }
+
+  .fa-twitter {
+    color: rgb(100, 100, 100);
+  }
+
+  .fa-github {
+    color: rgb(100, 100, 100);
+  }
+  .fa-facebook {
+    color: rgb(100, 100, 100);
+  }
+  .fa-medium {
+    color: rgb(100, 100, 100);
+  }
+  .fa-steam {
+    color: rgb(100, 100, 100);
+  }
+
+  
+  .social {
+  left: 49.5%;
+  top: 55%;
+  font-size: 22px;
+  position: absolute;
+  }
+
+
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    
+
+  .Name {
+    font-family: 'Open Sans', sans-serif;
+    src:url('OpenSans-Light.ttf');
+    color: rgb(180, 180, 180);
+    font-weight: 300;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 44px;
+  }
+  .ProfileImage {
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    width: 100%;
+		
+  }
+  .Title {
+    font-family: 'Ubuntu';
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 22px;
+  }
+  .StockPhotoTitle {
+    font-family: 'Ubuntu';
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 12px;
+    text-decoration: None;
+
+  }
+
+
+.ShutterStock {
+  font-family: 'Ubuntu';
+  color: rgb(100, 100, 100);
+  font-weight: 300;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  font-size: 12px;
+  text-decoration: None;
+
+}
+
+.AdobeStock {
+  font-family: 'Ubuntu';
+  color: rgb(100, 100, 100);
+  font-weight: 300;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  font-size: 12px;
+  text-decoration: None;
+ }
+
+ .EMAIL {
+  font-family: 'Ubuntu';
+  color: rgb(100, 100, 100);
+  font-weight: 400;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  font-size: 12px;
+  text-decoration: None;
+ }
+
+  a {
+    color: white;
+  }
+
+  a.hover{
+    cursor: pointer;
+  }
+
+  a.text:hover {
+    opacity: 0.7;
+  }
+
+   a.text:active {
+    opacity: 0.7;
+  }
+
+
+    a.text2:hover {
+    opacity: 0.7;
+  }
+
+   a.text2:active {
+    opacity: 0.7;
+  }
+
+
+
+
+
+
+
+  body {
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+
+
+
+/* for mobile devices 480px */
+@media (max-width: 480px){
+    body{
+      background-color: black;
+    }
+
+    .social{
+    left: 12%;
+    top: 90%;
+    }
+
+    .Name{
+    top: 8%;
+    left: 8%;
+    }
+
+    .title{
+    top: 68%;
+    left: 2%;
+    }
+
+    .projects{
+    top: 71%;
+    left: 10%;
+    }
+
+    .text {
+    top: 79%;
+    left: 18%;
+    }
+
+    .text2 {
+    top: 83%;
+    left: 18%;
+    }
+}
+
+/* mobile devices 375(iphone 6/7/8) */
+
+@media (max-width: 376px)
+{
+  body{
+    background-color: black;
+  }
+
+  .social{
+  left: 2%;
+  top: 90%;
+  font-size: 22px;
+  }
+
+  .Name{
+  top: 0%;
+  left: 0%;
+  font-size: 40 px;
+  }
+
+  .title{
+  top: 70%;
+  left: 3%;
+  font-size: 22px;
+  }
+
+  .projects{
+  top: 74%;
+  left: 10%;
+  font-size: 22px;
+  }
+
+  .text {
+  top: 82%;
+  left: 15%;
+  font-size: 22px;
+  }
+
+   .text2 {
+  top: 85%;
+  left: 15%;
+  font-size: 22px;
+  }
+}
+
+
+
+
+
+/* for mobile devices */
+@media (max-width: 370px){
+  body{
+    background-color: black;
+  }
+
+  .social{
+  left: 2%;
+  top: 90%;
+  font-size: 22px;
+  }
+
+  .Name{
+  top: 0%;
+  left: 0%;
+  font-size: 40 px;
+  }
+
+  .title{
+  top: 70%;
+  left: 3%;
+  font-size: 22px;
+  }
+
+  .projects{
+  top: 74%;
+  left: 10%;
+  font-size: 22px;
+  }
+
+  .text {
+  top: 82%;
+  left: 15%;
+  font-size: 22px;
+  }
+
+   .text2 {
+  top: 85%;
+  left: 15%;
+  font-size: 22px;
+  }
+}
+
+
+
+/* for mobile devices */
+@media (max-width: 320px){
+  body{
+    background-color: black;
+  }
+
+  .social{
+  left: 2%;
+  top: 90%;
+  font-size: 20px;
+  }
+
+  .Name{
+  top: 0%;
+  left: 0%;
+  font-size: 40 px;
+  }
+
+  .title{
+  top: 69%;
+  left: 0%;
+  font-size: 20px;
+  }
+
+  .projects{
+  top: 73%;
+  left: 5%;
+  font-size: 20px;
+  }
+
+  .text {
+  top: 82%;
+  left: 7%;
+  font-size: 20px;
+  }
+
+  .text2 {
+  top: 86%;
+  left: 7%;
+  font-size: 20px;
+  }
+
+}
+
+
+
+/* for tablet devices */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-color: black;
+        }
+
+  .Name{
+      top: 20%;
+      left: 50%;
+    }
+
+  .title{
+      top: 40%;
+      left: 8%;
+      }
+
+  .projects{
+      top: 48%;
+      left: 12%;
+  }
+
+  .text {
+  top: 65%;
+  left: 15%;
+  }
+
+  .text2 {
+  top: 69%;
+  left: 15%;
+  }
+
+}
+
+
+/* for desktop devices */
+@media (min-width: 1025px) {
+    body {
+      background-color: black;
+          }
+}
+
+
+
