@@ -43,9 +43,12 @@
     color: rgb(100, 100, 100);
   }
 
-  
-  .social {
-  left: 49.45%;
+  .social a {
+  text-decoration: none;
+}
+
+  .social  {
+  left: 50%;
   top: 40%;
   font-size: 24px;
   position: absolute;
@@ -61,7 +64,7 @@
     
 
   .Name {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     src:url('OpenSans-Light.ttf');
     color: rgb(180, 180, 180);
     font-weight: 300;
